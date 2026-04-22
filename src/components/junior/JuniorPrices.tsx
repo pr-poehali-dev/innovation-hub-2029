@@ -36,6 +36,9 @@ export function JuniorPrices() {
             <a href="#contacts" className="btn-primary w-full text-center block text-lg py-4">
               Записаться
             </a>
+            <div className="mt-4 rounded-2xl px-4 py-3 text-sm font-bold text-[#5c2d91]" style={{ background: "#f0e6fa" }}>
+              🎁 При оплате 2 и более абонементов — скидка! Уточняйте у администратора.
+            </div>
           </div>
 
           {/* Single lesson card */}
