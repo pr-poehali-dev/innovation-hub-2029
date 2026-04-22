@@ -5,8 +5,8 @@ const competitions = [
     level: "Региональный",
     desc: "Ежегодный фестиваль робототехники. Наши ученики — постоянные призёры!",
     badge: "Региональный чемпион",
-    badgeColor: "#C1E1C1",
-    textColor: "#2d6a2d",
+    badgeColor: "#d6f5e4",
+    textColor: "#1e7a44",
   },
   {
     emoji: "💡",
@@ -14,8 +14,8 @@ const competitions = [
     level: "Региональный",
     desc: "Соревнования по программированию и IT-технологиям среди школьников.",
     badge: "Призёр",
-    badgeColor: "#D1B3E8",
-    textColor: "#5c2d91",
+    badgeColor: "#ede5f7",
+    textColor: "#5c3d8a",
   },
   {
     emoji: "🏙️",
@@ -62,13 +62,13 @@ export function JuniorAchievements() {
           className="rounded-3xl p-10 text-center relative overflow-hidden"
           style={{ background: "linear-gradient(135deg, #f3fbf3, #f9f3fd)" }}
         >
-          <div className="absolute -top-10 -left-10 w-40 h-40 rounded-full opacity-30" style={{ background: "#C1E1C1" }} />
-          <div className="absolute -bottom-10 -right-10 w-48 h-48 rounded-full opacity-20" style={{ background: "#D1B3E8" }} />
+          <div className="absolute -top-10 -left-10 w-40 h-40 rounded-full opacity-30" style={{ background: "#3DBA6E" }} />
+          <div className="absolute -bottom-10 -right-10 w-48 h-48 rounded-full opacity-20" style={{ background: "#7B5EA7" }} />
           <div className="relative z-10">
             <div className="text-6xl mb-4">✈️</div>
             <h3 className="text-3xl font-extrabold text-gray-800 mb-3">
               Победители едут в{" "}
-              <span style={{ color: "#B280D0" }}>Санкт-Петербург!</span>
+              <span style={{ color: "#7B5EA7" }}>Санкт-Петербург!</span>
             </h3>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed mb-6">
               Лучшие ученики школы JUNIOR выходят на федеральный уровень. Организаторы оплачивают проезд и проживание — ваш ребёнок путешествует и побеждает!

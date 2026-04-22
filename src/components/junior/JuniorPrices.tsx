@@ -12,13 +12,13 @@ export function JuniorPrices() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {/* Main price card */}
-          <div className="junior-card p-8 text-center relative overflow-hidden" style={{ borderColor: "#B280D0" }}>
+          <div className="junior-card p-8 text-center relative overflow-hidden" style={{ borderColor: "#7B5EA7" }}>
             <div className="absolute top-4 right-4">
               <span className="badge-purple">Хит!</span>
             </div>
             <div className="text-5xl mb-4">🎓</div>
             <h3 className="text-xl font-extrabold text-gray-800 mb-2">Ежемесячное обучение</h3>
-            <div className="text-6xl font-extrabold my-6" style={{ color: "#B280D0" }}>
+            <div className="text-6xl font-extrabold my-6" style={{ color: "#7B5EA7" }}>
               4 800 ₽
             </div>
             <div className="text-gray-400 font-semibold mb-6">в месяц</div>
@@ -42,10 +42,10 @@ export function JuniorPrices() {
           </div>
 
           {/* Single lesson card */}
-          <div className="junior-card p-8 text-center" style={{ borderColor: "#C1E1C1" }}>
+          <div className="junior-card p-8 text-center" style={{ borderColor: "#3DBA6E" }}>
             <div className="text-5xl mb-4">📖</div>
             <h3 className="text-xl font-extrabold text-gray-800 mb-2">Разовое занятие</h3>
-            <div className="text-4xl font-extrabold my-6" style={{ color: "#4a9a4a" }}>
+            <div className="text-4xl font-extrabold my-6" style={{ color: "#3DBA6E" }}>
               1 200 ₽
             </div>
             <div className="text-gray-400 font-semibold mb-6">за одно занятие</div>
@@ -69,12 +69,12 @@ export function JuniorPrices() {
         {/* Free trial banner */}
         <div
           className="rounded-3xl p-8 text-center text-white"
-          style={{ background: "linear-gradient(135deg, #B280D0, #7c55a8)" }}
+          style={{ background: "linear-gradient(135deg, #7B5EA7, #5a4280)" }}
         >
           <div className="text-4xl mb-3">🎉</div>
           <h3 className="text-2xl font-extrabold mb-2">Первое занятие — бесплатно!</h3>
           <p className="opacity-90 mb-6">Приходите познакомиться со школой. Никаких обязательств.</p>
-          <a href="#contacts" className="inline-block bg-white font-extrabold px-8 py-3 rounded-2xl text-[#B280D0] hover:scale-105 transition-transform">
+          <a href="#contacts" className="inline-block bg-white font-extrabold px-8 py-3 rounded-2xl text-[#7B5EA7] hover:scale-105 transition-transform">
             Записаться на пробный урок
           </a>
         </div>

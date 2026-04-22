@@ -5,8 +5,8 @@ const courses = [
     subtitle: "Робототехника",
     desc: "Программируемые роботы, датчики, соревнования. Для детей 8–15 лет.",
     age: "8–15 лет",
-    color: "#D1B3E8",
-    bg: "#f9f3fd",
+    color: "#7B5EA7",
+    bg: "#f0ebf7",
   },
   {
     emoji: "🧱",
@@ -14,8 +14,8 @@ const courses = [
     subtitle: "Робототехника",
     desc: "Первые шаги в робототехнике. Простые механизмы и программирование. Для детей 5–9 лет.",
     age: "5–9 лет",
-    color: "#C1E1C1",
-    bg: "#f3fbf3",
+    color: "#3DBA6E",
+    bg: "#eaf7f0",
   },
   {
     emoji: "🐱",
@@ -32,8 +32,8 @@ const courses = [
     subtitle: "Разработка приложений",
     desc: "Создаём настоящие мобильные приложения для Android без сложного кода.",
     age: "10–16 лет",
-    color: "#D1B3E8",
-    bg: "#f9f3fd",
+    color: "#7B5EA7",
+    bg: "#f0ebf7",
   },
   {
     emoji: "🎮",
@@ -41,8 +41,8 @@ const courses = [
     subtitle: "Gamedev",
     desc: "Проектируем и публикуем собственные игры на платформе Roblox. Lua-программирование.",
     age: "9–16 лет",
-    color: "#C1E1C1",
-    bg: "#f3fbf3",
+    color: "#3DBA6E",
+    bg: "#eaf7f0",
   },
   {
     emoji: "🐍",

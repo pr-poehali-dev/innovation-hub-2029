@@ -2,9 +2,9 @@ export function JuniorHero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden pt-16" style={{ background: "linear-gradient(135deg, #f0faf0 0%, #f5edfb 50%, #edf5ff 100%)" }}>
       {/* Decorative blobs */}
-      <div className="absolute top-20 left-10 w-64 h-64 rounded-full opacity-40 float-anim" style={{ background: "#C1E1C1", filter: "blur(60px)" }} />
-      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full opacity-30 float-anim-2" style={{ background: "#D1B3E8", filter: "blur(80px)" }} />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full opacity-20" style={{ background: "#C1E1C1", filter: "blur(100px)" }} />
+      <div className="absolute top-20 left-10 w-64 h-64 rounded-full opacity-40 float-anim" style={{ background: "#3DBA6E", filter: "blur(60px)" }} />
+      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full opacity-30 float-anim-2" style={{ background: "#7B5EA7", filter: "blur(80px)" }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full opacity-20" style={{ background: "#3DBA6E", filter: "blur(100px)" }} />
 
       <div className="max-w-7xl mx-auto px-6 py-20 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -78,10 +78,10 @@ export function JuniorHero() {
             </div>
 
             {/* Code snippet decoration */}
-            <div className="absolute bottom-0 right-0 bg-white rounded-2xl shadow-lg p-4 max-w-44 text-xs font-mono text-[#B280D0]">
+            <div className="absolute bottom-0 right-0 bg-white rounded-2xl shadow-lg p-4 max-w-44 text-xs font-mono text-[#7B5EA7]">
               <div className="text-gray-400">// junior.py</div>
-              <div><span className="text-[#4a9a4a]">print</span>(<span className="text-orange-500">"Hello!"</span>)</div>
-              <div><span className="text-[#4a9a4a]">build</span>(robot=<span className="text-blue-500">True</span>)</div>
+              <div><span className="text-[#3DBA6E]">print</span>(<span className="text-orange-500">"Hello!"</span>)</div>
+              <div><span className="text-[#3DBA6E]">build</span>(robot=<span className="text-blue-500">True</span>)</div>
             </div>
           </div>
         </div>

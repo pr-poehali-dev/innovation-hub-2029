@@ -44,7 +44,7 @@ export function JuniorContacts() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Form */}
-          <div className="junior-card p-8" style={{ borderColor: "#D1B3E8" }}>
+          <div className="junior-card p-8" style={{ borderColor: "#7B5EA7" }}>
             {sent ? (
               <div className="text-center py-10">
                 <div className="text-7xl mb-4">🎉</div>
@@ -64,7 +64,7 @@ export function JuniorContacts() {
                     placeholder="Например: Артём"
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-[#B280D0] outline-none transition-colors font-semibold"
+                    className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-[#7B5EA7] outline-none transition-colors font-semibold"
                   />
                 </div>
                 <div>
@@ -75,7 +75,7 @@ export function JuniorContacts() {
                     placeholder="+7 (___) ___-__-__"
                     value={form.phone}
                     onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                    className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-[#B280D0] outline-none transition-colors font-semibold"
+                    className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-[#7B5EA7] outline-none transition-colors font-semibold"
                   />
                 </div>
                 <div>
@@ -83,7 +83,7 @@ export function JuniorContacts() {
                   <select
                     value={form.course}
                     onChange={(e) => setForm({ ...form, course: e.target.value })}
-                    className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-[#B280D0] outline-none transition-colors font-semibold bg-white text-gray-700"
+                    className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-[#7B5EA7] outline-none transition-colors font-semibold bg-white text-gray-700"
                   >
                     <option value="">Выберите курс...</option>
                     {courseOptions.map((opt) => (
@@ -104,7 +104,7 @@ export function JuniorContacts() {
           {/* Info */}
           <div className="space-y-6">
             {/* Address */}
-            <div className="junior-card p-6 flex items-start gap-4" style={{ borderColor: "#C1E1C1" }}>
+            <div className="junior-card p-6 flex items-start gap-4" style={{ borderColor: "#3DBA6E" }}>
               <div className="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style={{ background: "#f3fbf3" }}>
                 📍
               </div>
@@ -115,13 +115,13 @@ export function JuniorContacts() {
             </div>
 
             {/* Phone */}
-            <div className="junior-card p-6 flex items-start gap-4" style={{ borderColor: "#D1B3E8" }}>
-              <div className="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style={{ background: "#f9f3fd" }}>
+            <div className="junior-card p-6 flex items-start gap-4" style={{ borderColor: "#7B5EA7" }}>
+              <div className="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style={{ background: "#f0ebf7" }}>
                 📞
               </div>
               <div>
                 <div className="font-extrabold text-gray-800 mb-1">Телефон</div>
-                <a href="tel:+79788685437" className="text-[#B280D0] font-bold text-lg hover:underline">
+                <a href="tel:+79788685437" className="text-[#7B5EA7] font-bold text-lg hover:underline">
                   +7 (978) 868-54-37
                 </a>
               </div>
@@ -140,7 +140,7 @@ export function JuniorContacts() {
             </div>
 
             {/* Free trial callout */}
-            <div className="rounded-3xl p-6 text-center" style={{ background: "linear-gradient(135deg, #C1E1C1, #D1B3E8)" }}>
+            <div className="rounded-3xl p-6 text-center" style={{ background: "linear-gradient(135deg, #3DBA6E, #7B5EA7)" }}>
               <div className="text-3xl mb-2">🎁</div>
               <div className="font-extrabold text-white text-lg">Первое занятие бесплатно!</div>
               <div className="text-white/80 text-sm mt-1">Приходите познакомиться</div>
