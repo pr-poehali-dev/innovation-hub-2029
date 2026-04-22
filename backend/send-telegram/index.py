@@ -23,7 +23,12 @@ def handler(event: dict, context) -> dict:
     course = body.get('course', '—')
 
     token = os.environ['TELEGRAM_BOT_TOKEN']
-    chat_id = os.environ['TELEGRAM_CHAT_ID']
+    raw_id = os.environ['TELEGRAM_CHAT_ID'].strip()
+    # Для каналов и супергрупп нужен формат -100XXXXXXXXXX
+    if raw_id.lstrip('-').isdigit() and not raw_id.startswith('-'):
+        chat_id = f"-100{raw_id}"
+    else:
+        chat_id = raw_id
 
     text = (
         f"📋 Новая заявка с сайта!\n\n"
