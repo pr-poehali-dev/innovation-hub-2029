@@ -53,9 +53,13 @@ export function JuniorHero() {
             <div className="relative w-80 h-80 md:w-96 md:h-96">
               <div className="absolute inset-0 rounded-full float-anim" style={{ background: "linear-gradient(135deg, #C1E1C1, #D1B3E8)" }} />
 
-              {/* Center emoji */}
-              <div className="absolute inset-0 flex items-center justify-center text-8xl float-anim">
-                🤖
+              {/* Center robot image */}
+              <div className="absolute inset-0 flex items-center justify-center float-anim">
+                <img
+                  src="https://cdn.poehali.dev/projects/26448a97-ef11-4ace-b89e-d8c4fba6dde2/bucket/c644a69e-0028-4659-b91f-aad66027dc67.png"
+                  alt="Робот"
+                  className="w-72 h-72 object-contain drop-shadow-xl"
+                />
               </div>
 
               {/* Floating badges */}
