@@ -1,4 +1,5 @@
 import { useState } from "react"
+import func2url from "../../../backend/func2url.json"
 
 const courseOptions = [
   "Lego EV3 — Робототехника",
@@ -14,9 +15,19 @@ const courseOptions = [
 export function JuniorContacts() {
   const [form, setForm] = useState({ name: "", phone: "", course: "" })
   const [sent, setSent] = useState(false)
+  const [loading, setLoading] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    setLoading(true)
+    try {
+      await fetch(func2url["send-telegram"], {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      })
+    } catch (err) { console.error(err) }
+    setLoading(false)
     setSent(true)
   }
 
@@ -80,8 +91,8 @@ export function JuniorContacts() {
                     ))}
                   </select>
                 </div>
-                <button type="submit" className="btn-primary w-full text-lg py-4">
-                  🎯 Записаться на пробный урок
+                <button type="submit" disabled={loading} className="btn-primary w-full text-lg py-4 disabled:opacity-60">
+                  {loading ? "Отправляем..." : "🎯 Записаться на пробный урок"}
                 </button>
                 <p className="text-xs text-gray-400 text-center">
                   Нажимая кнопку, вы соглашаетесь на обработку персональных данных
