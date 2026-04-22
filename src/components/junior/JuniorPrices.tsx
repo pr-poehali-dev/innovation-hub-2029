@@ -38,27 +38,27 @@ export function JuniorPrices() {
             </a>
           </div>
 
-          {/* Tournament card */}
+          {/* Single lesson card */}
           <div className="junior-card p-8 text-center" style={{ borderColor: "#C1E1C1" }}>
-            <div className="text-5xl mb-4">🏆</div>
-            <h3 className="text-xl font-extrabold text-gray-800 mb-2">Соревнования и турниры</h3>
+            <div className="text-5xl mb-4">📖</div>
+            <h3 className="text-xl font-extrabold text-gray-800 mb-2">Разовое занятие</h3>
             <div className="text-4xl font-extrabold my-6" style={{ color: "#4a9a4a" }}>
-              200 ₽
+              1 200 ₽
             </div>
-            <div className="text-gray-400 font-semibold mb-6">организационный взнос</div>
+            <div className="text-gray-400 font-semibold mb-6">за одно занятие</div>
             <ul className="text-left space-y-3 text-gray-600 mb-8">
               {[
-                "🏅 Региональные соревнования",
-                "🏅 Федеральный уровень",
-                "✈️ Поездки в Санкт-Петербург",
-                "🎁 Проезд и проживание оплачены",
-                "🥇 Реальные достижения в портфолио",
+                "✅ Без абонемента",
+                "✅ Опытный педагог",
+                "✅ Все материалы включены",
+                "✅ Доступ к оборудованию",
+                "✅ Подходит для знакомства",
               ].map((item, i) => (
                 <li key={i} className="font-semibold">{item}</li>
               ))}
             </ul>
             <a href="#contacts" className="btn-secondary w-full text-center block text-lg py-4">
-              Узнать подробнее
+              Записаться
             </a>
           </div>
         </div>
