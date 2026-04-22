@@ -15,18 +15,18 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 20%;
 
-    /* Primary: pastel purple #B280D0 */
-    --primary: 285 50% 65%;
+    /* Primary: logo purple #7B5EA7 */
+    --primary: 267 28% 51%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary: pastel green */
-    --secondary: 120 35% 82%;
-    --secondary-foreground: 220 20% 20%;
+    /* Secondary: logo green #3DBA6E */
+    --secondary: 145 51% 48%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 120 20% 96%;
+    --muted: 145 20% 95%;
     --muted-foreground: 220 10% 50%;
 
-    --accent: 285 50% 65%;
+    --accent: 267 28% 51%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,24 +34,24 @@
 
     --border: 220 15% 90%;
     --input: 220 15% 95%;
-    --ring: 285 50% 65%;
+    --ring: 267 28% 51%;
 
     --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 220 20% 20%;
-    --sidebar-primary: 285 50% 65%;
+    --sidebar-primary: 267 28% 51%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 120 35% 82%;
-    --sidebar-accent-foreground: 220 20% 20%;
+    --sidebar-accent: 145 51% 48%;
+    --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 285 50% 65%;
+    --sidebar-ring: 267 28% 51%;
 
     /* Custom JUNIOR colors */
-    --junior-green: #c1e1c1;
-    --junior-green-dark: #a8d5a8;
-    --junior-purple: #d1b3e8;
-    --junior-purple-dark: #b280d0;
+    --junior-green: #3dba6e;
+    --junior-green-dark: #2fa05d;
+    --junior-purple: #7b5ea7;
+    --junior-purple-dark: #6a4f92;
     --junior-text: #333333;
   }
 }
@@ -86,28 +86,28 @@
   }
 
   .junior-card:hover {
-    border-color: #d1b3e8;
+    border-color: #7b5ea7;
   }
 
   .btn-primary {
     @apply px-6 py-3 rounded-2xl font-bold text-white transition-all duration-200 hover:scale-105 active:scale-95;
-    background: #b280d0;
-    box-shadow: 0 4px 15px rgba(178, 128, 208, 0.35);
+    background: #7b5ea7;
+    box-shadow: 0 4px 15px rgba(123, 94, 167, 0.35);
   }
 
   .btn-primary:hover {
-    background: #9a68be;
+    background: #6a4f92;
   }
 
   .btn-secondary {
     @apply px-6 py-3 rounded-2xl font-bold transition-all duration-200 hover:scale-105 active:scale-95;
-    background: #c1e1c1;
-    color: #333;
-    box-shadow: 0 4px 15px rgba(193, 225, 193, 0.5);
+    background: #3dba6e;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(61, 186, 110, 0.35);
   }
 
   .btn-secondary:hover {
-    background: #a8d5a8;
+    background: #2fa05d;
   }
 
   .section-title {
@@ -134,14 +134,14 @@
 
   .badge-green {
     @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-bold;
-    background: #c1e1c1;
-    color: #2d6a2d;
+    background: #d6f5e4;
+    color: #1e7a44;
   }
 
   .badge-purple {
     @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-bold;
-    background: #d1b3e8;
-    color: #5c2d91;
+    background: #ede5f7;
+    color: #5c3d8a;
   }
 }
 

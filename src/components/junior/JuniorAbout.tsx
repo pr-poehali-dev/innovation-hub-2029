@@ -14,7 +14,7 @@ export function JuniorAbout() {
           <div className="relative">
             <div
               className="rounded-3xl overflow-hidden aspect-square flex items-center justify-center relative"
-              style={{ background: "linear-gradient(135deg, #C1E1C1, #D1B3E8)" }}
+              style={{ background: "linear-gradient(135deg, #3DBA6E, #7B5EA7)" }}
             >
               {/* Fun decorative content */}
               <div className="text-center text-white">
@@ -33,7 +33,7 @@ export function JuniorAbout() {
 
             {/* Stats chip */}
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-5 text-center">
-              <div className="text-3xl font-extrabold" style={{ color: "#B280D0" }}>7+</div>
+              <div className="text-3xl font-extrabold" style={{ color: "#7B5EA7" }}>7+</div>
               <div className="text-sm font-semibold text-gray-500">курсов</div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export function JuniorAbout() {
             <div className="badge-purple mb-6 w-fit">🏫 О нашей школе</div>
             <h2 className="text-4xl font-extrabold text-gray-800 mb-6 leading-tight">
               Место, где дети{" "}
-              <span style={{ color: "#B280D0" }}>влюбляются</span>{" "}
+              <span style={{ color: "#7B5EA7" }}>влюбляются</span>{" "}
               в технологии
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">

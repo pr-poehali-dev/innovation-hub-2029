@@ -15,9 +15,9 @@ export function JuniorHero() {
             </div>
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold leading-tight mb-6" style={{ color: "#222" }}>
               IT-школа{" "}
-              <span style={{ color: "#B280D0" }}>JUNIOR</span>
+              <span style={{ color: "#7B5EA7" }}>JUNIOR</span>
               {" "}–{" "}
-              <span style={{ color: "#4a9a4a" }}>твой старт</span>{" "}
+              <span style={{ color: "#3DBA6E" }}>твой старт</span>{" "}
               в мир технологий!
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
@@ -40,7 +40,7 @@ export function JuniorHero() {
                 { val: "🏆", label: "чемпионы" },
               ].map((s, i) => (
                 <div key={i} className="text-center">
-                  <div className="text-3xl font-extrabold" style={{ color: "#B280D0" }}>{s.val}</div>
+                  <div className="text-3xl font-extrabold" style={{ color: "#7B5EA7" }}>{s.val}</div>
                   <div className="text-sm text-gray-500 font-semibold">{s.label}</div>
                 </div>
               ))}
@@ -51,7 +51,7 @@ export function JuniorHero() {
           <div className="flex justify-center items-center relative">
             {/* Main circle */}
             <div className="relative w-80 h-80 md:w-96 md:h-96">
-              <div className="absolute inset-0 rounded-full float-anim" style={{ background: "linear-gradient(135deg, #C1E1C1, #D1B3E8)" }} />
+              <div className="absolute inset-0 rounded-full float-anim" style={{ background: "linear-gradient(135deg, #3DBA6E, #7B5EA7)" }} />
 
               {/* Center robot image */}
               <div className="absolute inset-0 flex items-center justify-center float-anim">
