@@ -18,7 +18,11 @@ export function JuniorAbout() {
             >
               {/* Fun decorative content */}
               <div className="text-center text-white">
-                <div className="text-9xl mb-4">👩‍💻</div>
+                <img
+                  src="https://cdn.poehali.dev/projects/26448a97-ef11-4ace-b89e-d8c4fba6dde2/bucket/a08e096a-5ff4-4af4-9261-5ef65aa876d6.png"
+                  alt="Робот с ноутбуком"
+                  className="w-64 h-64 object-contain mb-2 mx-auto drop-shadow-xl"
+                />
                 <div className="font-extrabold text-2xl opacity-90">Учимся с радостью!</div>
               </div>
               {/* Floating elements */}
